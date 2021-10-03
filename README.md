@@ -9,4 +9,8 @@ Also, the favicon is courtesy of https://www.freefavicon.com/freefavicons/object
 
 Part 2's scavenger hunt words are in part2.txt.
 
+Also please note that four youtube videos are linked to. These are not, however, the 30 second
+video which is included with the video tag, and whose audio is included below with the audio tag
+beneath it, both near the bottom of the page.
+
 Updated.
