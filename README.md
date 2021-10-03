@@ -9,3 +9,4 @@ Also, the favicon is courtesy of https://www.freefavicon.com/freefavicons/object
 
 Part 2's scavenger hunt words are in part2.txt.
 
+Updated.
