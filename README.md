@@ -13,3 +13,5 @@ Also please note that four youtube videos are linked to. These are not, however,
 video which is included with the video tag, and whose audio is included below with the audio tag
 beneath it, both near the bottom of the page.
 
+Added line for lab3 check.
+
