@@ -65,4 +65,10 @@ h3.subtitles {
     background-color: aqua;
 }
 
+figure figcaption b, img {
+    display:block;
+    margin: auto;
+    text-align: center;
+}
+
 
