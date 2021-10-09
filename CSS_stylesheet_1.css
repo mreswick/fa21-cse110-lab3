@@ -10,10 +10,51 @@ CSE 110 */
     background-color: #ffffff
 }
 
+p {
+    border: 5px solid orange;
+    margin: auto;
+}
+
 p, p i, p strong, p b, p em{
     background-color: rgb(100, 100, 100);
     font-family: serif;
     color: hsl(77, 66%, 100%, 1);
+}
+
+/* For largest headers */
+h1 {
+    text-align: center;
+    color: black;
+    border-style: dotted;
+    border-color: red;
+    border-width: 10px;
+    border-radius: 4px;
+    margin: 25px 20px 75px 20px;
+}
+
+h2 {
+    color: darkcyan;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#detailsList {
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.subtitles {
+    background-color: lightseagreen;
+    padding: 20px 20px 20px 20px;
+}
+
+h3.subtitles {
+    background-color: aqua;
 }
 
 
