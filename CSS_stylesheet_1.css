@@ -3,3 +3,10 @@ Misha Reswick
 10/8/2021
 CSE 110 */
 
+/* For applying default font */
+* {
+    font-family: "Times New Roman" 
+    color=black;
+}
+
+
