@@ -5,8 +5,35 @@
             h4 {
                 font-family: "Ephesis", "Birthstone", "Roboto";
             }
+            @media print {
+                body {
+                    background-color:white;
+                    color:black;
+                    margin: auto;
+                }
+            }
+            @media screen and (max-width: 600px)
+            {
+                h1, h1 i, h1 b, h1 strong, h1 em {
+                  background-color: lightgreen;
+                }
+            }
+            @media screen and (min-width:600px) and (max-width:1000px)
+            {
+                * {
+                    margin: auto;
+                    max-width:600px;
+                }
+            }
+            @media screen and (min-width: 1000px)
+            {
+                * {
+                    margin: auto;
+                    max-width: 1300px;
+                }
+            }
         </style>
-        
+
         <meta charset="UTF-8">
         <title> Brainstorm and Discussion: Review</title>
         <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico"/>
