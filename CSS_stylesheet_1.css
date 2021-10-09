@@ -63,6 +63,12 @@ to give attendance in the HTML. */
 .subtitles {
     background-color: lightseagreen;
     padding: 20px 20pt 20pt 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style:dotted;
+    border-color:green;
 }
 
 /* substitles specifically for h3 */ 
@@ -81,6 +87,7 @@ figure figcaption b, img {
 .imgClass {
     width:200px;
     height:300px;
+    margin-left: 30px;
 }
 
 button:hover{
@@ -187,5 +194,13 @@ h2 ~ section {
     padding-top: 20px;
     background-color: lightcoral;
     color: black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+label.formFormatting {
+    background-color: rgb(100, 100, 100);
+    color: white;
 }
 
