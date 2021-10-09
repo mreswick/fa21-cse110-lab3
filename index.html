@@ -16,16 +16,33 @@
 
             @media screen and (min-width:601px)
             {
-                * {
+                *{
                     margin: auto;
-                    max-width:95%;
-                    min-width:85%;
+                    max-width: 95%;
+                    min-width: 85%;
                 }
+                input, label {
+                    max-width: 100%;
+                    min-width: 0%;
+                }
+                
+               
             }
 
 
             @media screen and (max-width: 600px)
             {
+                *{
+                    margin: auto;
+                    max-width: 95%;
+                    min-width: 85%;
+                }
+
+                input, label {
+                    max-width: 100%;
+                    min-width: 0%;
+                }
+
                 h1, h1 i, h1 b, h1 strong, h1 em {
                   background-color: lightgreen;
                 }
@@ -37,7 +54,10 @@
                 header
                 {
                     background-color: lightcoral;
-                } 
+                }
+
+                
+
             }
 
             
@@ -50,7 +70,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico"/>
         <link rel="stylesheet" href="CSS_stylesheet_1.css"/>
     </head>
-    <body>
+    <body style="overflow-x:hidden;">
         <main>
             <h1>
                 Brainstorm and Post-Discussion <em> in Review</em>
@@ -138,7 +158,7 @@
                 </p>
                 <figure>
                     <img src="media/pexelsStickyNote.jpg" alt="The Sticky Note"
-                        width=400 height=300>
+                        class="imgclass" width="500" height="400" >
                     <figcaption><b> Fig. #1: The Sticky Note</b></figcaption>
                 </figure>
                 <p>
@@ -151,65 +171,68 @@
                 </p>
                 <figure>
                     <img src="media/pexelsWhiteboard.jpg" alt="A whiteboard"
-                        width=400 height=300>
+                        class="imgclass" width="500" height="400">
                     <figcaption><b> Fig. #2: A Whiteboard</b></figcaption>
                 </figure>
-                <p>
-                    From our research team headed by Thwo and Vig, we have reason to 
-                    believe that though drawing directly on this device can aid complex
-                    reasoning, that if we instead draw on these "sticky notes" and
-                    <em> then </em> put them on this white board, that productivity increases
-                    by nearly two-fold. 
-                </p>
-                <p>
-                    What should be noted, as mentioned earlier, is how individual ideas
-                    can now be put in a space where all can view them. This creates
-                    a potential network through which information can flow and interact,
-                    yielding a space that is then in turn democratized by this revolution
-                    of discussion and decision-making. 
-                </p>
-                <p>
-                    As Phar had brought up last time, by putting all our ideas here, we
-                    can then decide on the best paths forward by collectively examining
-                    sticky notes posted on this board.
-                </p>
-                <p> It should be noted, however, that we are still working both the sticky
-                    notes and required pens into our budget. (There are a handful of
-                    small start up companies that have gone under down the street, however,
-                    and so we may acquire some of these from them. Though we may follow in 
-                    their footsteps, we will not make the same mistakes.)
-                    We do currently have enough, however, for at least two of the three teams.
-                </p>
-                <section> 
-                    <h4>
-                        Other Concerns Related to the Workplace:
-                    </h4>
+                <div id="flexCont">
                     <p>
-                        We additionally were considering last time that our tables be put on wheels,
-                        and that all privacy of the cubicle be removed. This was previously voted
-                        down by our research team, but as we then discussed, since our financial
-                        state has only been worsening and we have yet to try it, we have put it back
-                        on the table for future discussion. This will be reviewed again in a week's time.
-                    </p>
-                </section>
-                <section> 
-                    <h4>
-                        Software Projects:
-                    </h4>
-                    <p> Currently our Kinesthetic-Sense development team is examining the effects
-                        of plushy foam on computer vision systems. As mentioned last time,
-                        this was the next material in line after the bicycle accident last week.
+                        From our research team headed by Thwo and Vig, we have reason to 
+                        believe that though drawing directly on this device can aid complex
+                        reasoning, that if we instead draw on these "sticky notes" and
+                        <em> then </em> put them on this white board, that productivity increases
+                        by nearly two-fold. 
                     </p>
                     <p>
-                        Our Artificial Intelligence repository is also now up and running, 
-                        as before described. It is important we emphasize now, however,
-                        it's use in providing a platform through which we may all comingle.
-                        Miye is currently leading a small group to automate the mitigation
-                        of conflicts such that the longer piece of code is selected in case
-                        of incongruous merges. 
+                        What should be noted, as mentioned earlier, is how individual ideas
+                        can now be put in a space where all can view them. This creates
+                        a potential network through which information can flow and interact,
+                        yielding a space that is then in turn democratized by this revolution
+                        of discussion and decision-making. 
                     </p>
-                </section>
+                    <p>
+                        As Phar had brought up last time, by putting all our ideas here, we
+                        can then decide on the best paths forward by collectively examining
+                        sticky notes posted on this board.
+                    </p>
+                    <p> It should be noted, however, that we are still working both the sticky
+                        notes and required pens into our budget. (There are a handful of
+                        small start up companies that have gone under down the street, however,
+                        and so we may acquire some of these from them. Though we may follow in 
+                        their footsteps, we will not make the same mistakes.)
+                        We do currently have enough, however, for at least two of the three teams.
+                    </p>
+                    <section> 
+                        <h4>
+                            Other Concerns Related to the Workplace:
+                        </h4>
+                        <p>
+                            We additionally were considering last time that our tables be put on wheels,
+                            and that all privacy of the cubicle be removed. This was previously voted
+                            down by our research team, but as we then discussed, since our financial
+                            state has only been worsening and we have yet to try it, we have put it back
+                            on the table for future discussion. This will be reviewed again in a week's time.
+                        </p>
+                    </section>
+                    <section> 
+                        <h4>
+                            Software Projects:
+                        </h4>
+                        <p> Currently our Kinesthetic-Sense development team is examining the effects
+                            of plushy foam on computer vision systems. As mentioned last time,
+                            this was the next material in line after the bicycle accident last week.
+                        </p>
+                        <p>
+                            Our Artificial Intelligence repository is also now up and running, 
+                            as before described. It is important we emphasize now, however,
+                            it's use in providing a platform through which we may all comingle.
+                            Miye is currently leading a small group to automate the mitigation
+                            of conflicts such that the longer piece of code is selected in case
+                            of incongruous merges. 
+                        </p>
+                    </section>
+                </div>
             </section>
+        
             <section>
                 <h3 class="subtitles">
                     2. The Issues Currently Facing Us:
@@ -302,9 +325,9 @@
                         feedback form. (Please be thorough, and really do take your time:
                         our meeting still has a number of hours to go.)
                     </p>
-                    <form>
-                        <fieldset>
-                        <h4> Introductory Feedback: </h4>
+                    <form class="form_grid_container" >
+                        <fieldset class="fieldset_grid_items formItem1" id=flexCont2>
+                            <h4 style="background-color:lightgreen;align-self:center"> Introductory Feedback: </h4>
                             <p> We would like to know how you are currently doing. <p>
                             <label for="intro_feeling">
                                 Please tell us how you are feeling during this meeting,
@@ -332,11 +355,11 @@
                                 responses to this question and prioritize them.
                             </label>
                             <br>
-                            <textarea style="margin-top:5px;" id="good_things" name="good_things" rows=50 cols=60>
+                            <textarea style="margin-top:5px;justify-self:center" id="good_things" name="good_things" rows=50>
                                 List as many items and thoughts here as you like.
                             </textarea>
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="fieldset_grid_items formItem2">
                             <section>
                                 <h4>
                                     Workspace Improvements:
@@ -370,7 +393,7 @@
                                 <br>
                             </section>
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="fieldset_grid_items formItem3">
                             <section>
                                 <h4>
                                     Projects Moving Forward:
@@ -412,7 +435,7 @@
                                 <br>
                             </section>
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="fieldset_grid_items formItem4">
                             <section>
                                 <h4>
                                     Confirmation:
