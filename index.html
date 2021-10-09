@@ -13,6 +13,16 @@
                     margin: auto;
                 }
             }
+
+            @media screen and (min-width:601px)
+            {
+                * {
+                    margin: auto;
+                    max-width:95%;
+                }
+            }
+
+
             @media screen and (max-width: 600px)
             {
                 h1, h1 i, h1 b, h1 strong, h1 em {
@@ -26,25 +36,12 @@
                 header
                 {
                     background-color: lightcoral;
-                }
+                } 
+            }
 
-                
-            }
-            @media screen and (min-width:601px) and (max-width:1000px)
-            {
-                * {
-                    margin: auto;
-                    max-width:600px;
-                    display:block;
-                }
-            }
-            @media screen and (min-width: 1001px)
-            {
-                * {
-                    margin: auto;
-                    max-width: 1300px;
-                }
-            }
+            
+           
+           
         </style>
 
         <meta charset="UTF-8">
@@ -60,7 +57,7 @@
             <h2>
                 A renewed look at 3 months prior and moving-forward: Documentation
             </h2>
-            <h3>
+            <h3 style="position:relative;top:10px;left:40%">
                 Dated: <i> 10/2/2021 </i>
             </h3>
             <br>
@@ -81,7 +78,7 @@
                     <br>
                     <div>
                         <details id=detailsList>
-                            <summary> Who is here: </summary>
+                            <summary style="background-color:beige"> Who is here: </summary>
                             <br>
                             In attendance we have: 
                             <ul>
@@ -334,7 +331,8 @@
                                 responses to this question and prioritize them.
                             </label>
                             <br>
-                            <textarea id="good_things" name="good_things" rows=50 cols=60>List as many items and thoughts here as you like.
+                            <textarea style="margin-top:5px;" id="good_things" name="good_things" rows=50 cols=60>
+                                List as many items and thoughts here as you like.
                             </textarea>
                         </fieldset>
                         <fieldset>
