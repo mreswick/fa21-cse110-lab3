@@ -6,7 +6,7 @@ CSE 110 */
 /* For applying default font */
 * {
     font-family: "Times New Roman", serif, Verdana; 
-    color:black;
+    color:#000;
     background-color: #ffffff
 }
 
@@ -23,7 +23,7 @@ and elements within */
 p, p i, p strong, p b, p em{
     background-color: rgb(100, 100, 100);
     font-family: serif;
-    color: hsl(77, 66%, 100%, 1);
+    color: hsla(77, 66%, 100%, 1);
     font-size: 2ch;
 }
 
@@ -96,7 +96,7 @@ figure figcaption b, img {
 
 /*button mouse actions: */ 
 button:hover{
-    color: white;
+    color: hsl(77, 66%, 100%);;
     background-color: purple;
 }
 button:active {
@@ -206,7 +206,7 @@ h2 ~ section {
 }
 
 label.formFormatting {
-    background-color: rgb(100, 100, 100);
+    background-color: rgba(100, 100, 100, 1.0);
     color: white;
 }
 
