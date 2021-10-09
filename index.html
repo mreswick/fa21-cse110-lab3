@@ -326,17 +326,17 @@
                         our meeting still has a number of hours to go.)
                     </p>
                     <form class="form_grid_container" >
-                        <fieldset class="fieldset_grid_items formItem1" id=flexCont2>
-                            <h4 style="background-color:lightgreen;align-self:center"> Introductory Feedback: </h4>
+                        <fieldset class="fieldset_grid_items formItem1" id=flexCont2 style="background-color:red;"">
+                            <h4 style="background-color:lightgreen;align-self:center;"> Introductory Feedback: </h4>
                             <p> We would like to know how you are currently doing. <p>
-                            <label for="intro_feeling">
+                            <label for="intro_feeling" class="formFormatting">
                                 Please tell us how you are feeling during this meeting,
                                 making sure to be as descriptive, honest, and detailed as possible.
                                 <em>Several auto-complete features are made available
                                 to help you in this process.</em> Please note that you 
                                 are visibly limited to <i> 22 characters</i>.
                             </label>
-                            <input list="intro_feelings" id="intro_feeling" name="intro_feeling">
+                            <input style="text-align:center;margin-left:5px;" list="intro_feelings" id="intro_feeling" name="intro_feeling">
                                 <datalist id="intro_feelings">
                                     <option value="Exhilirated">
                                     <option value="Excited">
@@ -347,7 +347,7 @@
                                 </datalist>
                             <br>
                             <br>
-                            <label for="good_things">
+                            <label for="good_things" class="formFormatting">
                                 Now please tell us of all the positive aspects of our meeting
                                 experience so far. Again, we ask that you be detailed and honest
                                 with your response. <em> We have also made plenty of room for
@@ -488,7 +488,7 @@
             </p>
         </main>
         <hr>
-        <footer>
+        <footer style="margin-bottom: 38px;">
             <br>
             All rights reserved.
         </footer>
