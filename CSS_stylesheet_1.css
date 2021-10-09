@@ -73,4 +73,20 @@ figure figcaption b, img {
     text-align: center;
 }
 
+button:hover{
+    color: white;
+    background-color: purple;
+}
 
+button:active {
+    color: white;
+    background-color: green;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
