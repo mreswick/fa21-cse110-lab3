@@ -14,6 +14,8 @@ CSE 110 */
 p {
     border: 5px solid orange;
     margin: auto;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
 }
 
 /* More specific background color, font, and color for paragraphs
@@ -22,6 +24,7 @@ p, p i, p strong, p b, p em{
     background-color: rgb(100, 100, 100);
     font-family: serif;
     color: hsl(77, 66%, 100%, 1);
+    font-size: 2ch;
 }
 
 /* For largest headers */
@@ -50,7 +53,7 @@ h2 {
 to give attendance in the HTML. */
 #detailsList {
     background-color: lightblue;
-    padding-top: 10px;
+    padding-top: 0.5in;
     padding-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
@@ -59,7 +62,7 @@ to give attendance in the HTML. */
 /* For sub-titles (such as h3) */
 .subtitles {
     background-color: lightseagreen;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20pt 20pt 20px;
 }
 
 /* substitles specifically for h3 */ 
