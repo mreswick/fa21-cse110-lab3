@@ -10,11 +10,14 @@ CSE 110 */
     background-color: #ffffff
 }
 
+/* Basic bordering and margining for paragraphs */
 p {
     border: 5px solid orange;
     margin: auto;
 }
 
+/* More specific background color, font, and color for paragraphs
+and elements within */
 p, p i, p strong, p b, p em{
     background-color: rgb(100, 100, 100);
     font-family: serif;
@@ -32,6 +35,7 @@ h1 {
     margin: 25px 20px 75px 20px;
 }
 
+/* For headers one level down */
 h2 {
     color: darkcyan;
     margin-top: 30px;
@@ -40,6 +44,8 @@ h2 {
     margin-right: 10px;
 }
 
+/* For the single details element used
+to give attendance in the HTML. */
 #detailsList {
     background-color: lightblue;
     padding-top: 10px;
@@ -48,11 +54,13 @@ h2 {
     padding-left: 30px;
 }
 
+/* For sub-titles (such as h3) */
 .subtitles {
     background-color: lightseagreen;
     padding: 20px 20px 20px 20px;
 }
 
+/* substitles specifically for h3 */ 
 h3.subtitles {
     background-color: aqua;
 }
