@@ -5,8 +5,15 @@ CSE 110 */
 
 /* For applying default font */
 * {
-    font-family: "Times New Roman" 
-    color=black;
+    font-family: "Times New Roman", serif, Verdana; 
+    color:black;
+    background-color: #ffffff
+}
+
+p, p i, p strong, p b, p em{
+    background-color: rgb(100, 100, 100);
+    font-family: serif;
+    color: hsl(77, 66%, 100%, 1);
 }
 
 
