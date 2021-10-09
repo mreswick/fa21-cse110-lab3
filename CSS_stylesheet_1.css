@@ -71,6 +71,9 @@ figure figcaption b, img {
     display:block;
     margin: auto;
     text-align: center;
+    position:relative;
+    right: 5%;
+
 }
 
 button:hover{
@@ -89,4 +92,8 @@ a:active {
 
 a:hover {
     color: green;
+}
+
+h4 {
+    position:static;
 }
